@@ -11,11 +11,13 @@ public class PlayerController : MonoBehaviour {
 
     void Start()
     {
+        //gets rigidbody2D so the sprite can move
         rb = GetComponent<Rigidbody2D> ();
 
     }
      void Update()
     {
+        //inputs so the player can control the sprite using keys
         Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         moveVelocity = moveInput.normalized * speed;
     }

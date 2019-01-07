@@ -9,6 +9,7 @@ public class Weapon : MonoBehaviour
     public GameObject projectile;
     public Transform shotPoint;
 
+    //code for delays between shots so it cant be spammed
     private float timeBtwShots;
     public float startTimeBtwShots;
 

@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 157961346}
   m_Layer: 0
   m_Name: Shot point
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 603513959}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -295,7 +295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 885297653}
   - component: {fileID: 885297655}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Border (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 889005229}
   - component: {fileID: 889005228}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,7 +412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 919370970}
   - component: {fileID: 919370972}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Border (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -471,9 +471,9 @@ GameObject:
   - component: {fileID: 1199058512}
   - component: {fileID: 1199058511}
   - component: {fileID: 1199058510}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: New Sprite (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -682,7 +682,7 @@ GameObject:
   - component: {fileID: 1545914396}
   m_Layer: 0
   m_Name: weapon
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -714,7 +714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c08b5d9bcf96c4e85efbf33682292e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 0
+  offset: -90
   projectile: {fileID: 6958977294407793062, guid: c96ab37b49a69744084d07d1934ddd01,
     type: 3}
   shotPoint: {fileID: 157961346}
@@ -777,7 +777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1693938179}
   - component: {fileID: 1693938181}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Border (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
