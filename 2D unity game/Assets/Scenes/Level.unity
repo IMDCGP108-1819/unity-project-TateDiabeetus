@@ -471,6 +471,7 @@ GameObject:
   - component: {fileID: 1199058512}
   - component: {fileID: 1199058511}
   - component: {fileID: 1199058510}
+  - component: {fileID: 1199058514}
   m_Layer: 8
   m_Name: New Sprite (2)
   m_TagString: Enemy
@@ -488,9 +489,9 @@ Rigidbody2D:
   m_GameObject: {fileID: 1199058509}
   m_BodyType: 0
   m_Simulated: 1
-  m_UseFullKinematicContacts: 0
+  m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 2.9413831
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
@@ -587,6 +588,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1199058514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199058509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eab167a215487f499902c6838402e15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  deathEffect: {fileID: 904855724603826442, guid: f078be617ecfb914b8594b7f951303d7,
+    type: 3}
 --- !u!1 &1336568228
 GameObject:
   m_ObjectHideFlags: 0

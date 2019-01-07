@@ -9,6 +9,7 @@ public class Projectille : MonoBehaviour
     public float lifeTime;
     public float distance;
     public LayerMask whatIsSolid;
+    public int damage;
 
     public GameObject destroyEffect;
 
@@ -22,8 +23,9 @@ public class Projectille : MonoBehaviour
         //colision when hitting something tagged: "enemy"
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.up, distance, whatIsSolid);
         if (hitInfo.collider != null) {
-            if (hitInfo.collider.CompareTag("enemy")) {
+            if (hitInfo.collider.CompareTag("Enemy")) {
                 Debug.Log("Enemy Must Take Damage");
+                hitInfo.collider.GetComponent<Enemy>().TakeDamage(damage);
             }
             DestroyProjectile();
         }
