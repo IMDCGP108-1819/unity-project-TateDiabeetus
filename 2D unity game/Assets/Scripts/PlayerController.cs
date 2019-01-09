@@ -44,6 +44,7 @@ public class PlayerController : MonoBehaviour {
         {
             pos.x = -widthOrtho;
         }
+        //update position
 
         transform.position = pos;
     }

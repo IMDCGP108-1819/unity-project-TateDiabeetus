@@ -375,7 +375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d60b2d3277017134387cb1f69d5bc027, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
 --- !u!1 &674389456
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,6 +547,7 @@ GameObject:
   - component: {fileID: 1199058510}
   - component: {fileID: 1199058514}
   - component: {fileID: 1199058515}
+  - component: {fileID: 1199058516}
   m_Layer: 8
   m_Name: New Sprite (2)
   m_TagString: Enemy
@@ -691,6 +692,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+--- !u!114 &1199058516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199058509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a371cd71be239b42b6d85d7a3cec23d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1336568228
 GameObject:
   m_ObjectHideFlags: 0
