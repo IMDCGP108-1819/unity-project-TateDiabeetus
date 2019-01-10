@@ -29,6 +29,7 @@ public class Rotator : MonoBehaviour
         float zAngle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90;
 
         Quaternion desiredRot = Quaternion.Euler(0, 0, zAngle );
-       transform.rotation = Quaternion.RotateTowards(transform.rotation, desiredRot, rotSpeed * Time.deltaTime);
+       transform.rotation =
+            Quaternion.RotateTowards(transform.rotation, desiredRot, rotSpeed * Time.deltaTime);
     }
 }
