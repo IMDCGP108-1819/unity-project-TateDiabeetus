@@ -44,8 +44,9 @@ public class PlayerSpawner : MonoBehaviour {
 
 		else
         {
+            //game over message when all lives are gone
 
-			GUI.Label( new Rect( Screen.width/2 - 50 , Screen.height/2 - 25, 100, 50), "Game Over");
+			GUI.Label( new Rect( Screen.width/2 - 50 , Screen.height/2 - 25, 100, 50), "Game Over! Press space to retry");
 
 		}
 	}
