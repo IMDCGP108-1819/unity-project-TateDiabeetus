@@ -7,7 +7,7 @@ public class PlayerSpawner : MonoBehaviour {
 
 	GameObject playerInstance;
 
-	public int numLives = 4;
+	public int numLives = 5;
 
 	float respawnTimer;
 
