@@ -6,7 +6,7 @@ public class Rotator : MonoBehaviour
 {
     Transform player;
     //slowed rotation so it isnt instant
-    float rotSpeed = 180f;
+    float rotSpeed = 90f;
 
     // Update is called once per frame
     void Update()
@@ -14,7 +14,7 @@ public class Rotator : MonoBehaviour
         //finds Player again if destroyed at any point
         if(player == null)
         {
-            GameObject go = GameObject.Find("Player");
+            GameObject go = GameObject.FindWithTag ("Player");
                 if(go != null)
             {
                 player = go.transform;
